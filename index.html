@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced E-commerce Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <h1>My Store</h1>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search products, brands, and categories">
+      <button class="search-btn">Search</button>
+    </div>
+    <div class="header-buttons">
+      <button class="header-btn">Account</button>
+      <button class="header-btn">Help</button>
+      <button class="header-btn">Cart</button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Black Friday Deals Section -->
+    <section class="deals-section">
+      <h2>Black Friday Deals</h2>
+      <div class="deals-grid">
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1">
+          <p class="product-name">Infinix Hot 50i</p>
+          <p class="price"><span class="discounted-price">₦155,815</span> <span class="original-price">₦220,000</span></p>
+          <span class="discount-tag">-29%</span>
+        </div>
+        <!-- Add more product cards as needed -->
+      </div>
+    </section>
+
+    <!-- Flash Sale Section -->
+    <section class="flash-sale">
+      <h2>Flash Sale <span class="timer">Time Left: 09:04:52</span></h2>
+      <div class="flash-grid">
+        <div class="flash-product-card">
+          <img src="flash1.jpg" alt="Flash Product">
+          <p class="product-name">Ace Elec 20,000 mAh</p>
+          <p class="price"><span class="discounted-price">₦8,300</span> <span class="original-price">₦12,000</span></p>
+          <div class="stock-bar">
+            <div class="stock-progress" style="width: 70%;"></div>
+          </div>
+          <span class="discount-tag">-31%</span>
+        </div>
+        <!-- Add more flash product cards as needed -->
+      </div>
+    </section>
+    
+    <!-- Product Section -->
+<section class="product-section">
+  <h2 class="section-title">Top Deals</h2>
+  <div class="product-row">
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="path-to-image1.jpg" alt="Product 1" class="product-image" />
+      <h3 class="product-title">Infinix Hot 50i 6.78"</h3>
+      <p class="product-price">₦155,815 <span class="old-price">₦220,000</span></p>
+      <p class="product-discount">-29%</p>
+      <button class="buy-now" onclick="buyNow('Product Name')">Buy Now</button>
+      <button class="view-details" onclick="viewDetails('Product Name')">View Details</button>
+      <button class="add-to-cart" onclick="addToCart('Product Name')">Add to Cart</button>
+
+
+    </div>
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="path-to-image2.jpg" alt="Product 2" class="product-image" />
+      <h3 class="product-title">Silver Crest 2L Blender</h3>
+      <p class="product-price">₦22,285 <span class="old-price">₦30,000</span></p>
+      <p class="product-discount">-26%</p>
+      <button class="buy-now" onclick="buyNow('Product Name')">Buy Now</button>
+      <button class="view-details" onclick="viewDetails('Product Name')">View Details</button>
+      <button class="add-to-cart" onclick="addToCart('Product Name')">Add to Cart</button>
+
+
+    </div>
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="path-to-image3.jpg" alt="Product 3" class="product-image" />
+      <h3 class="product-title">Hikers 50" TV</h3>
+      <p class="product-price">₦344,397 <span class="old-price">₦409,999</span></p>
+      <p class="product-discount">-16%</p>
+      <button class="buy-now" onclick="buyNow('Product Name')">Buy Now</button>
+      <button class="view-details" onclick="viewDetails('Product Name')">View Details</button>
+      <button class="add-to-cart" onclick="addToCart('Product Name')">Add to Cart</button>
+
+    </div>
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="path-to-image4.jpg" alt="Product 4" class="product-image" />
+      <h3 class="product-title">Fashion Watch</h3>
+      <p class="product-price">₦4,985 <span class="old-price">₦9,655</span></p>
+      <p class="product-discount">-48%</p>
+      <button class="buy-now" onclick="buyNow('Product Name')">Buy Now</button>
+      <button class="view-details" onclick="viewDetails('Product Name')">View Details</button>
+      <button class="add-to-cart" onclick="addToCart('Product Name')">Add to Cart</button>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Category Section -->
+    <section class="categories">
+      <a href="android.html"></a>
+      <h2>Phone Deals</h2>
+      <div class="categories-slider">
+        <div class="category">
+          <img src="android.jpg" alt="Android Phones">
+          <p>Android Phones</p>
+        </div>
+        <div class="category">
+          <img src="iphone.jpg" alt="iPhones">
+          <p>iPhones</p>
+        </div>
+        <div class="category">
+          <img src="tablets.jpg" alt="Android Tablets">
+          <p>Android Tablets</p>
+        </div>
+        <!-- Add more categories as needed -->
+      </div>
+    </section>
+
+    <!-- Top Deals Section -->
+    <section class="top-deals">
+      <h2>Top Phone Deals</h2>
+      <div class="top-deals-grid">
+        <div class="product-card">
+          <img src="top1.jpg" alt="Top Deal">
+          <p class="product-name">Infinix Note 12</p>
+          <p class="price"><span class="discounted-price">₦95,000</span> <span class="original-price">₦120,000</span></p>
+          <span class="discount-tag">-20%</span>
+        </div>
+        <!-- Add more top deal cards as needed -->
+      </div>
+    </section>
+  </main>
+</body>
+</html>
